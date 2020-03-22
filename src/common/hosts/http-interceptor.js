@@ -13,8 +13,8 @@ Vue.use(Toast);
 
 // axios 配置
 // axios.defaults.timeout = 5000;
-axios.defaults.baseURL = './service';
-//axios.defaults.baseURL = 'http://192.168.3.18:9000/service';
+//axios.defaults.baseURL = './service';
+axios.defaults.baseURL = 'http://192.168.3.18:9000/service';
 axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded';
 // http request 拦截器
 
